@@ -1,0 +1,88 @@
+.post {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 37vw;
+  margin-top: 30px;
+  box-shadow: 0px 5px 8px -9px rgb(0, 0, 0, 0.75);
+}
+
+.post__top {
+  display: flex;
+  padding: 20px;
+}
+
+.post__topInfo {
+  padding-left: 10px;
+  flex: 1;
+}
+
+.post__topInfo > h5 {
+  color: gray;
+  font-weight: 200;
+}
+
+.post__top > .MuiSvgIcon-root {
+  flex: 0.1;
+}
+
+.post__message {
+  padding: 20px;
+}
+
+.post__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.post__bottomLike {
+  display: flex;
+  align-items: center;
+}
+
+.post__bottomLike > .MuiSvgIcon-root {
+  color: gray;
+}
+
+.post__bottomLike > h5,
+.post__bottomShare > h5,
+.post__bottomComment > h5 {
+  padding-left: 10px;
+  color: gray;
+}
+
+.post__bottomComment {
+  display: flex;
+  align-items: center;
+}
+
+.post__bottomComment > .MuiSvgIcon-root {
+  color: gray;
+}
+
+.post__bottomShare {
+  display: flex;
+  align-items: center;
+}
+
+.post__bottomShare > .MuiSvgIcon-root {
+  color: gray;
+}
+
+.post__bottomAcc {
+  display: flex;
+  align-items: center;
+}
+
+.post__bottomAcc > .MuiSvgIcon-root {
+  color: gray;
+}
+
+.post__image > img {
+  width: 37vw;
+  object-fit: contain;
+}

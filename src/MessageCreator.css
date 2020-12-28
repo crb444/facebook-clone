@@ -1,0 +1,87 @@
+.messageCreator {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 37vw;
+  margin-top: 30px;
+  box-shadow: 0px 5px 8px -9px rgb(0, 0, 0, 0.75);
+}
+
+.messageCreator__top {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.messageCreator__bottom {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.messageCreator__inputMessage {
+  background-color: #f0f3f7;
+  border-radius: 60px;
+  margin-left: 20px;
+  padding: 10px;
+  width: 400px;
+}
+
+.messageCreator__inputImageUrl {
+  background-color: #f0f3f7;
+  border-radius: 60px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.messageCreator__inputMessage > input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 270px;
+}
+
+.messageCreator__top > form {
+  display: flex;
+}
+
+.messageCreator__inputImageUrl > input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.messageCreator__bottomVideoCam > h4,
+.messageCreator__bottomPhotoLib > h4,
+.messageCreator__bottomMood > h4 {
+  color: #888788;
+  padding-left: 10px;
+}
+
+.messageCreator__bottomVideoCam > .MuiSvgIcon-root {
+  color: #f90302;
+}
+
+.messageCreator__bottomVideoCam,
+.messageCreator__bottomPhotoLib {
+  display: flex;
+}
+
+.messageCreator__bottomPhotoLib > .MuiSvgIcon-root {
+  color: #028502;
+}
+
+.messageCreator__bottomMood {
+  display: flex;
+}
+
+.messageCreator__bottomMood > .MuiSvgIcon-root {
+  color: #ead4a4;
+}
+
+.messageCreator__top > form > button {
+  display: none;
+}

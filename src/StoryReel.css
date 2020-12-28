@@ -1,0 +1,6 @@
+.storyreel {
+  display: flex;
+  width: 50vw;
+  justify-content: center;
+  margin-top: 40px;
+}

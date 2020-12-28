@@ -1,0 +1,25 @@
+.story {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.story > img {
+  width: 125px;
+  height: 200px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.story > h4 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+}
+
+.story__avatar {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
